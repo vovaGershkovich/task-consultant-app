@@ -73,7 +73,7 @@ function post() {
   );
 }
 
-// Delete function
+// delete function
 function deleteTask(taskName) {
   let req = new XMLHttpRequest();
   req.open("DELETE", `http://localhost:3000/tasks/delete/${taskName}`);
