@@ -10,7 +10,7 @@ also, you can edit the date of the task or delete a task by its name.
 <br>
 <br>
 home page
-<img src="./public/img/home-screenshot.png">
+<img src="./public/img/home-screenshot.PNG">
 
 tasks table
 <img src="./public/img/tasks-screenshot.png">
