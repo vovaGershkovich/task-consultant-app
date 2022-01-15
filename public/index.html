@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Consultant</title>
+    <link rel="icon" href="/img/list.png" />
+
+    <!-- bootstrap config -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-success p-2 text-dark bg-opacity-25" onload="get()">
+    <div class="container" style="padding-top: 6rem">
+      <h1
+        class="text-center fw-light fst-italic fw-bolder"
+        style="color: #1c5276"
+      >
+        Task Consultant
+      </h1>
+      <div
+        class="shadow-lg p-3 mb-5 bg-body rounded w-25 p-3 position-relative position-relative bottom-0 start-50 translate-middle-x"
+      >
+        <form>
+          <div>
+            <p class="fs-3 text-success fw-bolder">Create a new task</p>
+            <br />
+            <input
+              maxlength="3"
+              type="number"
+              id="tNumber"
+              class="form-control"
+              placeholder="Task Number"
+            />
+          </div>
+          <div>
+            <br />
+            <input
+              type="text"
+              id="tName"
+              class="form-control"
+              placeholder="Task Name"
+            />
+          </div>
+          <div>
+            <br />
+            <textarea
+              maxlength="30"
+              class="form-control"
+              id="tDescription"
+              placeholder="Description"
+            ></textarea>
+          </div>
+          <div>
+            <br />
+            <input
+              type="text"
+              id="tPriority"
+              class="form-control"
+              placeholder="Start time"
+              onfocus="(this.type='time')"
+            />
+          </div>
+          <div>
+            <label for="tDate" class="form-label"></label>
+            <input
+              class="form-control"
+              type="text"
+              id="tDate"
+              placeholder="Start date"
+              onfocus="(this.type='date')"
+            />
+          </div>
+          <button
+            onclick="post()"
+            class="btn btn-success"
+            style="margin-top: 4rem"
+          >
+            Add Task
+          </button>
+
+          <button
+            type="button"
+            onclick="window.location='table.html'"
+            class="btn btn-warning"
+            style="margin-top: 4rem; margin-left: 1.5rem"
+          >
+            <strong>See your task list</strong>
+          </button>
+        </form>
+      </div>
+      <p style="text-align: center">Created by Igor ©</p>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
