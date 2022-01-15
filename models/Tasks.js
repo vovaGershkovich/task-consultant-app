@@ -1,5 +1,7 @@
+// imports
 const mongoose = require("mongoose");
 
+// objects schema
 let TaskSchema = new mongoose.Schema(
   {
     taskNumber: Number,
@@ -13,5 +15,5 @@ let TaskSchema = new mongoose.Schema(
   }
 );
 
-const TaskModel = mongoose.model("tasks-app", TaskSchema);
-module.exports = TaskModel;
+const TaskModel = mongoose.model("tasks-app", TaskSchema); // create "tasks-app" collection
+module.exports = TaskModel; // export the file
