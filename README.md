@@ -13,7 +13,7 @@ home page
 <img src="./public/img/home-screenshot.PNG">
 
 tasks table
-<img src="./public/img/tasks-screenshot.png">
+<img src="./public/img/tasks-screenshot.PNG">
 
 validation check
-<img src="./public/img/validation-check-screenshot.png">
+<img src="./public/img/validation-check-screenshot.PNG">
