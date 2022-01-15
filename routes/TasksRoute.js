@@ -65,5 +65,5 @@ router.delete("/delete/:name", (req, res) => {
   });
 });
 
-// export the file
+// export the router
 module.exports = router;
