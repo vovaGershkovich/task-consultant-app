@@ -20,3 +20,5 @@ tasks table
 validation check:<br>
 <b>If task name is empty - an error will pop out and will ask for a task name</b>
 <img src="./public/img/validation-check-screenshot.PNG">
+<br>
+<b>>Created by Igor Marushenko<b>
