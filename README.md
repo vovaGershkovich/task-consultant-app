@@ -10,7 +10,7 @@ also, you can edit the date of the task or delete a task by its name.
 <br>
 <br>
 Home page:<br>
-<b>Press on "Add task" button to add a new task<br>To see all the tasks in a separate page press on "See your task list" button</b>
+<b>Press on "Add task" button to add a new task<br>To see all the tasks in a separate page press on "See your task list" button.</b>
 
 <img src="./public/img/home-screenshot.PNG">
 
